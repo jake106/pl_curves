@@ -138,7 +138,6 @@ def sort_bins(dataframe):
     samples = []
 
     for col in dataframe.columns:
-
         # sort the bins in descending order, convert result to a new dataframe
         data = dataframe.loc[:, col].sort_values(ascending=False).to_frame()
         samples.append(data)
@@ -351,7 +350,7 @@ def run(input_file, graph_file, output_file):
         The file to save the data to
     '''
 
-    dataframe = pd.read_csv(input_file, delimiter='\t', index_col='Bin')
+    dataframe = pd.read_csv(input_file, delimiter='\t', index_col='Bin', dtype='float')
 
     # check all columns sum to 1, if so proceed and calculate/graph
     if check_columns(dataframe):
