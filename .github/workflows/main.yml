@@ -5,11 +5,11 @@ on: [push,workflow_dispatch]
 jobs:
   build:
     #choose which operating system we run on
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     strategy:
       matrix:
         #which versions of python will we target?
-        python-version: [3.5, 3.6]
+        python-version: [3.5, 3.6, 3.7, 3.8]
 
     steps:
    
