@@ -1,8 +1,8 @@
 Tests passing:
-[![Python Testing](https://github.com/CDT-AIMLAC/pl_curves/actions/workflows/main.yml/badge.svg)](https://github.com/CDT-AIMLAC/pl_curves/actions/workflows/main.yml)
+[![Python Testing](https://github.com/jake106/pl_curves/actions/workflows/main.yml/badge.svg)](https://github.com/jake106/pl_curves/actions/workflows/main.yml)
 
 Code coverage: 
-[![codecov](https://codecov.io/gh/CDT-AIMLAC/pl_curves/branch/master/graph/badge.svg)](https://codecov.io/gh/CDT-AIMLAC/pl_curves)
+[![codecov](https://codecov.io/gh/jake106/pl_curves/branch/master/graph/badge.svg)](https://codecov.io/gh/jake106/pl_curves)
 
 # Introduction
 
